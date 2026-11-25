@@ -1,0 +1,37 @@
+## O App — TarotOneInViewMode
+
+Stack: Kotlin, Jetpack Compose, Material3, Navigation Compose
+SDK: minSdk 24, targetSdk 36
+Arquitetura: MVVM com Repository pattern
+Estado: StateFlow / mutableStateOf
+
+## Estrutura atual
+- 3 telas: Archive (lista por naipe), CardDetail (detalhe), Draw (tiragem)
+- TarotCard: modelo rico com essence, lightMeaning, shadowMeaning,
+  guidanceWhenReversed, correspondences, history
+- Arcanos Maiores completos (22 cartas)
+- Arcanos Menores: Copas completo, Paus/Espadas/Pentáculos vazios
+- Tema escuro com paleta: DeepIndigo, TarotGold, EmeraldGlow, EtherBlue
+
+## Arquivos já corrigidos/criados
+- TarotCard.kt — campos opcionais hinduArchetype, umbandasEntity, chakra
+- TarotRepository.kt — getCardsByTab() adicionado
+- InMemoryTarotRepository.kt — implementação do getCardsByTab
+- Color.kt — paleta escura completa
+- Theme.kt — dynamicColor = false
+
+## Próximos passos
+- Preencher Wands, Swords, Pentacles
+- Revisar DrawScreen e DrawViewModel
+- Pensar no diferencial hindu/umbanda na UI
+
+## Identidade do projeto
+Canal de tarot no TikTok/Instagram chamado Oráculo.
+Persona com influência hindu e umbanda — diferencial ainda não exposto publicamente.
+Público brasileiro, maioria cristão mas aberto ao espiritual.
+
+
+
+TarotCard.kt, TarotRepository.kt, InMemoryTarotRepository.kt, Color.kt, Theme.kt — esses cinco são os que alteramos e precisam estar na nova conversa desde o início.
+Os outros — MainActivity.kt, TarotNavHost.kt, NavRoute.kt, ArchiveScreen.kt, ArchiveViewModel.kt, CardDetailScreen.kt, DrawScreen.kt, DrawViewModel.kt, MainScaffold.kt —
+ manda também, mas podem vir numa segunda mensagem depois do contexto inicial. São úteis mas não bloqueantes para começar.

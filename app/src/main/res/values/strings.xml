@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">B.Lopes Oráculo</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_iching">I Ching</string>
+    <string name="nav_tarot">Tarot</string>
+    <string name="nav_sadhana">Sadhana</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_back">Voltar</string>
+
+    <!-- Home Sections -->
+    <string name="section_energy_summary">Resumo Energético</string>
+    <string name="section_daily_advice">Conselhos do Dia</string>
+    <string name="section_history">Histórico</string>
+    <string name="section_reflection">Reflexão</string>
+    <string name="view_full_history">Ver histórico completo →</string>
+
+    <!-- Reflection Card -->
+    <string name="reflection_empty_title">Sua jornada começa agora</string>
+    <string name="reflection_empty_desc">Toque no oráculo abaixo para receber seu primeiro conselho e iniciar seu diário místico.</string>
+    <string name="reflection_vibration_title">Vibração da Semana</string>
+    <string name="reflection_vibration_desc">Esta carta tem aparecido com frequência. Reflita sobre sua mensagem central nestes dias.</string>
+    <string name="reflection_insight_title">Insight do Oráculo</string>
+    <string name="reflection_insight_footer">Continue sua trilha de autoconhecimento hoje.</string>
+    <string name="reflection_continue_title">Continue sua trilha</string>
+    <string name="reflection_continue_desc">O autoconhecimento é um hábito. Volte diariamente para manter sua conexão com os símbolos.</string>
+
+    <!-- Ritual States -->
+    <string name="state_shuffling">Embaralhando...</string>
+    <string name="state_flipping_coins">Lançando as moedas...</string>
+    <string name="state_calculating_lines">Calculando os trigramas e formando as linhas</string>
+    <string name="action_tap_to_reveal">Toque para revelar</string>
+    <string name="action_tap_to_see_details">Toque para ver detalhes</string>
+    <string name="action_draw_oracle">Consultar o Oráculo</string>
+    <string name="action_launch_coins">Lançar as Moedas</string>
+
+    <!-- Spread Selection (Hub) -->
+    <string name="hub_title">Tiragens e Consultas</string>
+    <string name="hub_subtitle">Escolha o método que melhor conversa com seu momento</string>
+    <string name="hub_tarot_desc_ppf">De onde vem, onde está e para onde caminha a sua questão.</string>
+    <string name="hub_tarot_desc_simnao">Para dúvidas objetivas: pergunte com clareza e receba uma resposta direta.</string>
+    <string name="hub_tarot_desc_desafio">O que está travando você e qual caminho se abre.</string>
+    <string name="hub_tarot_desc_relacionamento">A dinâmica entre duas pessoas: o que há entre vocês.</string>
+    <string name="hub_iching_desc_general">Um hexagrama como conselho para o seu momento.</string>
+    <string name="hub_iching_desc_mutation">O momento presente e o que ele está se tornando: hexagrama atual e futuro.</string>
+    <string name="section_tarot_label">TAROT · imagens e arquétipos</string>
+    <string name="section_iching_label">I CHING · o livro das mutações</string>
+    <string name="badge_cards_3">3 cartas</string>
+    <string name="badge_cards_1">1 carta</string>
+    <string name="badge_cards_2">2 cartas</string>
+    <string name="badge_hex_1">1 hexagrama</string>
+    <string name="badge_hex_2">2 hexagramas</string>
+
+    <!-- Interpretation Headers -->
+    <string name="label_essence">Essência</string>
+    <string name="label_light_path">Caminho da Luz</string>
+    <string name="label_shadow_challenge">Desafio da Sombra</string>
+    <string name="label_oracle_guidance">Conselho do Oráculo</string>
+    <string name="label_judgment">Julgamento</string>
+    <string name="label_image">Imagem</string>
+    <string name="label_summary">Resumo</string>
+    <string name="label_mutation">Mutação</string>
+    <string name="label_present">Presente</string>
+    <string name="label_future">Futuro</string>
+    <string name="label_upper">Superior</string>
+    <string name="label_lower">Inferior</string>
+    <string name="label_major_arcana">Arcano Maior</string>
+    <string name="label_minor_arcana">Arcano Menor</string>
+    <string name="label_notes">NOTAS</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_favorite">Favoritar</string>
+    <string name="cd_copy">Copiar</string>
+    <string name="cd_share">Compartilhar</string>
+    <string name="cd_info_tarot">Sobre o Tarot</string>
+    <string name="cd_info_iching">Sobre o I Ching</string>
+    <string name="cd_expand">Expandir</string>
+    <string name="cd_collapse">Recolher</string>
+
+    <!-- History -->
+    <string name="history_empty_title">Nenhuma leitura ainda</string>
+    <string name="history_empty_desc">Suas consultas ao Oráculo\naparecerão aqui.</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="action_delete_reading">✕ Excluir Leitura</string>
+    <string name="dialog_delete_title">Apagar esta consulta?</string>
+    <string name="dialog_delete_desc">Esta leitura específica e suas anotações associadas serão removidas do histórico.</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="note_placeholder">O que essa leitura evocou em você?</string>
+
+    <!-- Archive Tabs -->
+    <string name="tab_major">Maiores</string>
+    <string name="tab_wands">Paus</string>
+    <string name="tab_cups">Copas</string>
+    <string name="tab_swords">Espadas</string>
+    <string name="tab_pentacles">Pentáculos</string>
+
+    <!-- Messages -->
+    <string name="msg_sadhana_soon">Sadhana: Práticas místicas chegando em breve! ✨</string>
+    <string name="msg_day_card_exists">Sua carta do dia já foi consultada.\nVolte amanhã para uma nova mensagem.</string>
+
+    <!-- Backup Dialogs -->
+    <string name="dialog_import_title">Restaurar Backup</string>
+    <string name="dialog_import_desc">Atenção: A restauração irá substituir todos os dados atuais do aplicativo (leituras, notas, favoritos e progresso) pelas informações contidas no arquivo de backup. Deseja continuar?</string>
+    <string name="action_restore">Restaurar</string>
+
+    <!-- Analytics & Privacy Settings -->
+    <string name="section_privacy">Privacidade e Dados</string>
+    <string name="analytics_toggle_title">Ajudar a melhorar o app</string>
+    <string name="analytics_toggle_desc">Coleta dados de uso e falhas para estabilidade e melhorias. Nenhuma nota ou tiragem pessoal é enviada. Você pode desligar a qualquer momento.</string>
+
+    <!-- Privacy Notice First Launch -->
+    <string name="dialog_privacy_notice_title">Sua Privacidade no Oráculo</string>
+    <string name="dialog_privacy_notice_desc">Usamos ferramentas de análise e relatórios de falhas para entender o uso e manter o app estável. Nenhum dado pessoal identificável ou conteúdo de suas tiragens e notas é coletado. A coleta só começa depois que você fechar este aviso. Você pode alterar essa preferência a qualquer momento nas Configurações.</string>
+    <string name="action_got_it">Entendi</string>
+    <string name="action_adjust_settings">Ajustar em Configurações</string>
+    <string name="action_privacy_policy">Política de Privacidade</string>
+    <string name="privacy_policy_url">https://blopes-oracle.github.io/oracle/privacy.html</string>
+
+    <!-- Notification Permission Dialog -->
+    <string name="dialog_notif_permission_title">Permissão de Notificações</string>
+    <string name="dialog_notif_permission_desc">Para que o Oráculo possa te lembrar da Carta do Dia e da Reflexão, permita o envio de notificações.</string>
+    <string name="dialog_notif_denied_desc">A permissão de notificações foi negada. Para ativar os lembretes, ative-a nas configurações do aplicativo.</string>
+    <string name="action_open_settings">Abrir Configurações</string>
+</resources>

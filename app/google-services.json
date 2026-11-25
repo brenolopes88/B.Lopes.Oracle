@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "113444236487",
+    "project_id": "blopesoraculo",
+    "storage_bucket": "blopesoraculo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113444236487:android:8b83fc688b0853260e62e2",
+        "android_client_info": {
+          "package_name": "br.com.blopes.oraculo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdIrVpSCIDfPDFwJnPtVr3WkQ_CS65lk8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

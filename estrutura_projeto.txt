@@ -1,0 +1,52 @@
+﻿TarotOneInViewMode (Project Root)
+├── app/
+│   ├── src/main/java/com/example/tarotoneinviewmode/
+│   │   ├── data/
+│   │   │   ├── local/
+│   │   │   │   ├── LeituraDao.kt
+│   │   │   │   ├── LeituraEntity.kt
+│   │   │   │   ├── OraculoDatabase.kt (v7)
+│   │   │   │   └── PraticaDao/Entity.kt
+│   │   │   ├── repository/
+│   │   │   │   ├── LeituraRepository.kt
+│   │   │   │   ├── TarotRepository.kt
+│   │   │   │   └── PraticaRepository.kt
+│   │   │   └── preferences/
+│   │   │       └── OraculoPreferences.kt
+│   │   ├── domain/
+│   │   │   ├── model/
+│   │   │   │   ├── TarotCard.kt
+│   │   │   │   └── IChingHexagram.kt
+│   │   │   └── enums/
+│   │   ├── ui/
+│   │   │   ├── home/
+│   │   │   │   ├── HomeScreen.kt
+│   │   │   │   └── HomeViewModel.kt
+│   │   │   ├── iching/
+│   │   │   │   ├── IChingDrawScreen.kt
+│   │   │   │   ├── IChingDrawViewModel.kt
+│   │   │   │   ├── IChingArchiveScreen.kt
+│   │   │   │   └── HexagramDetailScreen.kt
+│   │   │   ├── draw/
+│   │   │   │   ├── DrawScreen.kt
+│   │   │   │   ├── DrawViewModel.kt
+│   │   │   │   └── SpreadSelectionScreen.kt (Hub ✨)
+│   │   │   ├── archive/ (Tarot Archive)
+│   │   │   │   ├── ArchiveScreen.kt
+│   │   │   │   └── ArchiveViewModel.kt
+│   │   │   ├── history/
+│   │   │   │   ├── ReadingHistoryScreen.kt
+│   │   │   │   └── ReadingHistoryViewModel.kt
+│   │   │   ├── main/
+│   │   │   │   └── MainScaffold.kt (Fluid Gooey Bar 🌊)
+│   │   │   ├── navigation/
+│   │   │   │   ├── NavRoute.kt
+│   │   │   │   └── TarotNavHost.kt
+│   │   │   └── theme/
+│   │   │       ├── Color.kt (DeepIndigo & TarotGold)
+│   │   │       └── TarotDesignTokens.kt
+│   │   └── MainActivity.kt
+│   └── src/main/res/drawable/ (Optimized WebP Assets)
+├── context.md (Resumo Estratégico)
+├── build.gradle.kts
+└── settings.gradle.kts

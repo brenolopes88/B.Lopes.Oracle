@@ -1,0 +1,32 @@
+# Built application files
+*.apk
+*.aab
+*.cls
+
+# Gradle files
+.gradle/
+/build/
+/app/build/
+
+# IDE / Android Studio files
+.idea/
+.DS_Store
+*.iml
+*.hprof
+.navigation/
+.externalNativeBuild/
+.cxx/
+
+# Local configuration files (SDK path, release signing keys)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# User Data / Room Databases / Local Backups (Privacy)
+*.db
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+/backups/
+/exports/
